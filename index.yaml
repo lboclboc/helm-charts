@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  librenms:
+  - apiVersion: v2
+    appVersion: "1.7"
+    created: "2022-11-10T18:18:38.361197474+01:00"
+    description: LibreNMS
+    digest: d9dc1ab9f9e4f0bb89550c003fdea4dabb6bf9b8eb4ec8472a430ce7d11973b2
+    name: librenms
+    type: application
+    urls:
+    - https://lboclboc.github.io/helm-charts/librenms-0.1.8.tgz
+    version: 0.1.8
+generated: "2022-11-10T18:18:37.115724335+01:00"
