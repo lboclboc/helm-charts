@@ -1,14 +1,43 @@
 apiVersion: v1
 entries:
+  gerrit:
+  - apiVersion: v2
+    appVersion: 3.6.2
+    created: "2023-06-16T11:10:06.691559703+02:00"
+    description: Gerrit is a free, web-based team code collaboration tool. Software
+      developers in a team can review each other's modifications on their source code
+      using a Web browser and approve or reject those changes. It integrates closely
+      with Git, a distributed version control system. [1]  [1](https://en.wikipedia.org/wiki/Gerrit_(software)
+    digest: ee273a4b0b37e973c214c7e65ccbb4921d24f1a7ea1f62b9e88bdb3ba634756c
+    home: https://gerrit.googlesource.com/k8s-gerrit/+/master/helm-charts/gerrit-replica
+    icon: http://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png
+    keywords:
+    - gerrit
+    - git
+    maintainers:
+    - email: thomas.draebing@sap.com
+      name: Thomas Draebing
+    - email: matthias.sohn@sap.com
+      name: Matthias Sohn
+    - email: sasa.zivkov@sap.com
+      name: Sasa Zivkov
+    - email: christian.halstrick@sap.com
+      name: Christian Halstrick
+    name: gerrit
+    sources:
+    - https://gerrit.googlesource.com/k8s-gerrit/+/master/
+    urls:
+    - gerrit-0.2.0.tgz
+    version: 0.2.0
   librenms:
   - apiVersion: v2
     appVersion: "1.7"
-    created: "2022-11-10T18:18:38.361197474+01:00"
+    created: "2023-06-16T11:10:08.840741323+02:00"
     description: LibreNMS
     digest: d9dc1ab9f9e4f0bb89550c003fdea4dabb6bf9b8eb4ec8472a430ce7d11973b2
     name: librenms
     type: application
     urls:
-    - https://lboclboc.github.io/helm-charts/librenms-0.1.8.tgz
+    - librenms-0.1.8.tgz
     version: 0.1.8
-generated: "2022-11-10T18:18:37.115724335+01:00"
+generated: "2023-06-16T11:10:06.689148766+02:00"
